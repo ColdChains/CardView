@@ -1,0 +1,6 @@
+framework module Pods_LCCardView {
+  umbrella header "Pods-LCCardView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,2 +1,2 @@
 # CardView
-CardView Achieve card sliding effect
+Card sliding effect

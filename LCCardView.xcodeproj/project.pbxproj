@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FC940128378037007A6654 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC940028378037007A6654 /* AppDelegate.m */; };
+		18FC940428378037007A6654 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC940328378037007A6654 /* SceneDelegate.m */; };
+		18FC940728378037007A6654 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC940628378037007A6654 /* ViewController.m */; };
+		18FC940A28378037007A6654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FC940828378037007A6654 /* Main.storyboard */; };
+		18FC940C2837803C007A6654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FC940B2837803C007A6654 /* Assets.xcassets */; };
+		18FC940F2837803C007A6654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FC940D2837803C007A6654 /* LaunchScreen.storyboard */; };
+		18FC94122837803C007A6654 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC94112837803C007A6654 /* main.m */; };
+		18FC9423283780AE007A6654 /* LCCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC941C283780AE007A6654 /* LCCardView.m */; };
+		18FC9424283780AE007A6654 /* LCCardScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC941E283780AE007A6654 /* LCCardScrollView.m */; };
+		18FC9425283780AE007A6654 /* LCPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC9422283780AE007A6654 /* LCPageControl.m */; };
+		21C82CBC9BF0B4A0E8D85FAD /* Pods_LCCardView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036FD6F83A6EF4A0F837E0BA /* Pods_LCCardView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		036FD6F83A6EF4A0F837E0BA /* Pods_LCCardView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCCardView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FC93FC28378037007A6654 /* LCCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FC93FF28378037007A6654 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18FC940028378037007A6654 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18FC940228378037007A6654 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		18FC940328378037007A6654 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		18FC940528378037007A6654 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18FC940628378037007A6654 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18FC940928378037007A6654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FC940B2837803C007A6654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FC940E2837803C007A6654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18FC94102837803C007A6654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FC94112837803C007A6654 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18FC9419283780AE007A6654 /* LCCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCardView.h; sourceTree = "<group>"; };
+		18FC941B283780AE007A6654 /* LCPageControlDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPageControlDelegate.h; sourceTree = "<group>"; };
+		18FC941C283780AE007A6654 /* LCCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCardView.m; sourceTree = "<group>"; };
+		18FC941E283780AE007A6654 /* LCCardScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCardScrollView.m; sourceTree = "<group>"; };
+		18FC941F283780AE007A6654 /* LCCardScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCardScrollView.h; sourceTree = "<group>"; };
+		18FC9421283780AE007A6654 /* LCPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPageControl.h; sourceTree = "<group>"; };
+		18FC9422283780AE007A6654 /* LCPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPageControl.m; sourceTree = "<group>"; };
+		618134E78A6573ADB8FF09D4 /* Pods-LCCardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCardView.release.xcconfig"; path = "Target Support Files/Pods-LCCardView/Pods-LCCardView.release.xcconfig"; sourceTree = "<group>"; };
+		B3A1570F994AF50D7474801E /* Pods-QLCardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLCardView.debug.xcconfig"; path = "Target Support Files/Pods-QLCardView/Pods-QLCardView.debug.xcconfig"; sourceTree = "<group>"; };
+		F796A396A489BD21A4417F2E /* Pods-LCCardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCCardView.debug.xcconfig"; path = "Target Support Files/Pods-LCCardView/Pods-LCCardView.debug.xcconfig"; sourceTree = "<group>"; };
+		FED71681AD5A9872D2BC797B /* Pods-QLCardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLCardView.release.xcconfig"; path = "Target Support Files/Pods-QLCardView/Pods-QLCardView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FC93F928378037007A6654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C82CBC9BF0B4A0E8D85FAD /* Pods_LCCardView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FC93F328378037007A6654 = {
+			isa = PBXGroup;
+			children = (
+				18FC93FE28378037007A6654 /* LCCardView */,
+				18FC93FD28378037007A6654 /* Products */,
+				7939830B9DDBA5849E0355F0 /* Pods */,
+				934FFE1710EEF9B2F6B410E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18FC93FD28378037007A6654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FC93FC28378037007A6654 /* LCCardView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FC93FE28378037007A6654 /* LCCardView */ = {
+			isa = PBXGroup;
+			children = (
+				18FC93FF28378037007A6654 /* AppDelegate.h */,
+				18FC940028378037007A6654 /* AppDelegate.m */,
+				18FC940228378037007A6654 /* SceneDelegate.h */,
+				18FC940328378037007A6654 /* SceneDelegate.m */,
+				18FC940528378037007A6654 /* ViewController.h */,
+				18FC940628378037007A6654 /* ViewController.m */,
+				18FC9418283780AE007A6654 /* LCCardView */,
+				18FC940828378037007A6654 /* Main.storyboard */,
+				18FC940B2837803C007A6654 /* Assets.xcassets */,
+				18FC940D2837803C007A6654 /* LaunchScreen.storyboard */,
+				18FC94102837803C007A6654 /* Info.plist */,
+				18FC94112837803C007A6654 /* main.m */,
+			);
+			path = LCCardView;
+			sourceTree = "<group>";
+		};
+		18FC9418283780AE007A6654 /* LCCardView */ = {
+			isa = PBXGroup;
+			children = (
+				18FC9419283780AE007A6654 /* LCCardView.h */,
+				18FC941C283780AE007A6654 /* LCCardView.m */,
+				18FC941A283780AE007A6654 /* Protocol */,
+				18FC941D283780AE007A6654 /* View */,
+				18FC9420283780AE007A6654 /* PageControl */,
+			);
+			path = LCCardView;
+			sourceTree = "<group>";
+		};
+		18FC941A283780AE007A6654 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				18FC941B283780AE007A6654 /* LCPageControlDelegate.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		18FC941D283780AE007A6654 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18FC941F283780AE007A6654 /* LCCardScrollView.h */,
+				18FC941E283780AE007A6654 /* LCCardScrollView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18FC9420283780AE007A6654 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				18FC9421283780AE007A6654 /* LCPageControl.h */,
+				18FC9422283780AE007A6654 /* LCPageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		7939830B9DDBA5849E0355F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1570F994AF50D7474801E /* Pods-QLCardView.debug.xcconfig */,
+				FED71681AD5A9872D2BC797B /* Pods-QLCardView.release.xcconfig */,
+				F796A396A489BD21A4417F2E /* Pods-LCCardView.debug.xcconfig */,
+				618134E78A6573ADB8FF09D4 /* Pods-LCCardView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		934FFE1710EEF9B2F6B410E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				036FD6F83A6EF4A0F837E0BA /* Pods_LCCardView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FC93FB28378037007A6654 /* LCCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FC94152837803C007A6654 /* Build configuration list for PBXNativeTarget "LCCardView" */;
+			buildPhases = (
+				A21499D26F6109A3804816B7 /* [CP] Check Pods Manifest.lock */,
+				18FC93F828378037007A6654 /* Sources */,
+				18FC93F928378037007A6654 /* Frameworks */,
+				18FC93FA28378037007A6654 /* Resources */,
+				48605CFAE558AAC2B7B7C5FD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCCardView;
+			productName = QLCardView;
+			productReference = 18FC93FC28378037007A6654 /* LCCardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FC93F428378037007A6654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					18FC93FB28378037007A6654 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 18FC93F728378037007A6654 /* Build configuration list for PBXProject "LCCardView" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FC93F328378037007A6654;
+			productRefGroup = 18FC93FD28378037007A6654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FC93FB28378037007A6654 /* LCCardView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FC93FA28378037007A6654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FC940F2837803C007A6654 /* LaunchScreen.storyboard in Resources */,
+				18FC940C2837803C007A6654 /* Assets.xcassets in Resources */,
+				18FC940A28378037007A6654 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48605CFAE558AAC2B7B7C5FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCCardView/Pods-LCCardView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LCCardView/Pods-LCCardView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LCCardView/Pods-LCCardView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A21499D26F6109A3804816B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCCardView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FC93F828378037007A6654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FC940728378037007A6654 /* ViewController.m in Sources */,
+				18FC940128378037007A6654 /* AppDelegate.m in Sources */,
+				18FC9424283780AE007A6654 /* LCCardScrollView.m in Sources */,
+				18FC9423283780AE007A6654 /* LCCardView.m in Sources */,
+				18FC9425283780AE007A6654 /* LCPageControl.m in Sources */,
+				18FC94122837803C007A6654 /* main.m in Sources */,
+				18FC940428378037007A6654 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18FC940828378037007A6654 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FC940928378037007A6654 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FC940D2837803C007A6654 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FC940E2837803C007A6654 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FC94132837803C007A6654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18FC94142837803C007A6654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FC94162837803C007A6654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F796A396A489BD21A4417F2E /* Pods-LCCardView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6E7363BSKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LCCardView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lax.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18FC94172837803C007A6654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 618134E78A6573ADB8FF09D4 /* Pods-LCCardView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6E7363BSKG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LCCardView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lax.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FC93F728378037007A6654 /* Build configuration list for PBXProject "LCCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FC94132837803C007A6654 /* Debug */,
+				18FC94142837803C007A6654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FC94152837803C007A6654 /* Build configuration list for PBXNativeTarget "LCCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FC94162837803C007A6654 /* Debug */,
+				18FC94172837803C007A6654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FC93F428378037007A6654 /* Project object */;
+}

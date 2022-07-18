@@ -5,6 +5,8 @@
 //  Created by lax on 2022/1/26.
 //
 
+#import "LCPageControl.h"
+
 #import <UIKit/UIKit.h>
 #import "LCCardScrollView.h"
 #import "LCPageControlDelegate.h"

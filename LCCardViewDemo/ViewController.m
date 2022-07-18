@@ -1,14 +1,13 @@
 //
-//  ViewController.m
-//  LCCardView
+//  ViewController.h
+//  LCCardViewDemo
 //
-//  Created by lax on 2022/5/20.
+//  Created by lax on 2022/7/18.
 //
 
 #import "ViewController.h"
 #import <Masonry/Masonry.h>
-#import "LCCardView.h"
-#import "LCPageControl.h"
+#import "LCCardView/LCCardView.h"
 
 @interface ViewController () <LCCardViewDelegate, LCCardViewDataSource>
 

@@ -8,11 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0E8CCAE597756C61B2D7B60EEF4A29E4 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17C938FCD3EC3DCEC430B222208A5546 /* Pods-LCCardViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA83ED880C7836251B5EE9A2F54D65 /* Pods-LCCardViewDemo-dummy.m */; };
 		19300CF68F5718C6F9C3476F1A98C1DC /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */; };
 		1B433A1BF92BBD5811F61A000E4771C2 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2839E3707C14798138E8A0C72ACE4C25 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D9E759F44F7B482FF6EF52452C05C26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		31F7C35C8863FA25A741A884E21BE7D0 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D0EFFE30E3193932A034220E3C4C0FA /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CC9B43AD90714A316815FAA71DC89A2 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */; };
@@ -20,39 +18,41 @@
 		54BEFE9F75005D327641073B838C6776 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */; };
 		567ABE0681AA82748435E32386DE12D7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */; };
 		61225B0B9AEC591476E30C9A575013B3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CBD5130DC0B2659F717A2F7532601C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		715AB2C777F6FCAB5EE0C667A909B698 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78251F42EB680FB72F040A1986279CD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		7B05A8DE072977F90AA84A0E98E23167 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */; };
-		7EF01198B1CADC82BD6E51893FB67B99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		8171D105E2C5CD3C1357D544942B4446 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		8967AD67D6999D770FBD2A2C5ECE3D00 /* Pods-LCCardView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB4CBE01927F2BB404EDBC637DF654B /* Pods-LCCardView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AE868BC3E2E6FC92F4717835180C47D /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1336977ADAAD492D6CFD089A8C6E358 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */; };
 		A83A6757F6C0003332D57B41FE24BEEA /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB54B181303BC08382D98B690D7383D9 /* Pods-LCCardViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF75334C33820F6B9E3108DCACC16D30 /* Pods-LCCardViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0BF787BBB2AB067D2087EB83674FAE1 /* Pods-CardViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 285A0FF0774327BB6F5F67058AE7C069 /* Pods-CardViewDemo-dummy.m */; };
 		B10646B6AF73D470221EF25A5DEEEB6F /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4BE7728D87333785F811FED48CF134E /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B61AA5459C2B345AD6D84D8A5111C9CE /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9116EF050E061D994AC00990EE3694C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		BE050DABC9BF806B3379AFD2367F4194 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEA99A49E5F8DA685E33DABA606041FF /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF8D6B9D3811FB803EE98796EEE62B5B /* Pods-LCCardView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 111F60263E3F5AD3073875998940CB9E /* Pods-LCCardView-dummy.m */; };
 		C7D83D99D755676EF8A09CC77845BAF4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		C9375F078B54A9030D4B9C2E73222A5D /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */; };
 		CECDB459AFB5AD0040AF86378F2DBF97 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
 		CEE7BDCC3F3073CBBF7A76BC6CF3E519 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E53FCD0CD1526B53074ED4EEF00131E9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6FB269534400D40C1CE67D18EDD8A9A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */; };
+		F3EAA968321A3A0D3B5C7EE710F49FEF /* Pods-CardView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 505D7FD10ECF9F30992B8B64E3F6ED4D /* Pods-CardView-dummy.m */; };
+		F415FCAC742F9770CEE1DB80C54A9059 /* Pods-CardViewDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FD0430F61728622E6AD2A635FA2849 /* Pods-CardViewDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCCC7BEF73E2677697694862523F7C4F /* Pods-CardView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB7459DFF5906A95E555B11B067A24A /* Pods-CardView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1B56ACF5158916DE7CBDCF4FB4FF26DF /* PBXContainerItemProxy */ = {
+		80BF88B8BD80CCFAD127C01499A9CBDF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
-		F751C6B173D9B95D8BF5F8ED9A4EA2FF /* PBXContainerItemProxy */ = {
+		A69546F2F7BC544AA71ADA4A4544B4F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -62,40 +62,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00EC9436E8D4CF4BFDA74CD1C125423C /* Pods-CardViewDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CardViewDemo-Info.plist"; sourceTree = "<group>"; };
 		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		042DD27F7438B3CA15458B153F0A4E12 /* Pods-CardViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CardViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		111F60263E3F5AD3073875998940CB9E /* Pods-LCCardView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCCardView-dummy.m"; sourceTree = "<group>"; };
-		15542D17376A59B51CFD3E7D3CAEDD2C /* Pods-LCCardViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCCardViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		1AAE8E292E7A7239050A1E4CB0D6FE24 /* Pods-LCCardView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCCardView-acknowledgements.plist"; sourceTree = "<group>"; };
-		1BC23216A4AACFD217E80173856566E7 /* Pods-LCCardView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCCardView.modulemap"; sourceTree = "<group>"; };
+		07E9B7AF2F91B334B667E19CA5CC33B6 /* Pods-CardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CardView.debug.xcconfig"; sourceTree = "<group>"; };
+		07FD0430F61728622E6AD2A635FA2849 /* Pods-CardViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CardViewDemo-umbrella.h"; sourceTree = "<group>"; };
+		12631D74CC64CA23B6F283A97D928E1C /* Pods-CardView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CardView"; path = Pods_CardView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C3BDE9CE76246D5E35E4C393ADCE12 /* Pods-CardView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CardView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		195FABDB75E3C07AA60112D615A482FB /* Pods-CardViewDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CardViewDemo"; path = Pods_CardViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B66939B30D3CF1EF699A31FE634C9F2 /* Pods-CardViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CardViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		280D4334EA0CADFCC878F318E10C6CBF /* Pods-LCCardView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCCardView-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2FE84E5D75775BFB2AB4C5F9966020A0 /* Pods-LCCardViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCCardViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		285A0FF0774327BB6F5F67058AE7C069 /* Pods-CardViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CardViewDemo-dummy.m"; sourceTree = "<group>"; };
+		2D7D0B27B2FBFC3B952A8138B96F6DC1 /* Pods-CardViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CardViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		30EC6C5D191587619B42076546EDC448 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		32EBFBCA20F7807E4AB478293275D168 /* Pods-LCCardViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCCardViewDemo.modulemap"; sourceTree = "<group>"; };
 		342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		373DC3F09FA1FD744F44ED4458E8F3FF /* Pods-CardViewDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CardViewDemo.modulemap"; sourceTree = "<group>"; };
 		3E537C1F47DA8B06DA4A71E3D14F4DE4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		419A961AD957E23BAB6A998ED7623134 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
 		470C5CD1265270E95A8A89443C727427 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		4AD89987EC7EAE20D7034EEF9935E7CC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		4BED2555A4C2DFA550B974BB8B8479E4 /* Pods-LCCardViewDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCCardViewDemo-Info.plist"; sourceTree = "<group>"; };
-		4DB4CBE01927F2BB404EDBC637DF654B /* Pods-LCCardView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCCardView-umbrella.h"; sourceTree = "<group>"; };
+		505D7FD10ECF9F30992B8B64E3F6ED4D /* Pods-CardView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CardView-dummy.m"; sourceTree = "<group>"; };
 		55960467D1B758EC688A18A171012E78 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		64FBA21654074EF6E913E0685654D0FC /* Pods-LCCardViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCCardViewDemo-frameworks.sh"; sourceTree = "<group>"; };
 		6CF8069504999FB8BF5FA1529175AA74 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		6E17443EA85E103F4DD0553AB6BB942A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		6FF4AF21902029EC43C354AC0978CE49 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		72A95F8027E3EB86CB9AE2D7539201FE /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		748C41B2528D7CBFBE34D185DBCA08AF /* Pods-LCCardView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCCardView-Info.plist"; sourceTree = "<group>"; };
+		7FB7459DFF5906A95E555B11B067A24A /* Pods-CardView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CardView-umbrella.h"; sourceTree = "<group>"; };
+		8181E1704A4691CE5F8217DFEF7CC99E /* Pods-CardView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CardView.modulemap"; sourceTree = "<group>"; };
 		837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		86765B456E483806C4E13D2DD50E40A4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		8EF2548E81777FF5C344A64837C6D286 /* Pods-LCCardView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCCardView.debug.xcconfig"; sourceTree = "<group>"; };
 		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		93AA83ED880C7836251B5EE9A2F54D65 /* Pods-LCCardViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCCardViewDemo-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
@@ -103,16 +104,15 @@
 		AF4497913DB548AE2E03103D3A97F34F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		B28EC2F4C626ED77509645BE3805CB29 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		BDB676D9D5D3AFD89D8DDCE3369D4BAC /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		C19ABC20C953A9EF05EEE8B0806B115E /* Pods-LCCardViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCCardViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C997165668FC2FBE482F95875A0A95C6 /* Pods-LCCardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCCardView.release.xcconfig"; sourceTree = "<group>"; };
-		CF75334C33820F6B9E3108DCACC16D30 /* Pods-LCCardViewDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCCardViewDemo-umbrella.h"; sourceTree = "<group>"; };
+		BFF5E66F6557CF4DABCB576813CAB695 /* Pods-CardView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CardView-Info.plist"; sourceTree = "<group>"; };
+		C0A02AA33204CE7B1C783B7461B09FF5 /* Pods-CardViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CardViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C34577617128C08D4AD2E5085C2A1CA4 /* Pods-CardView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CardView.release.xcconfig"; sourceTree = "<group>"; };
 		D12E9F350C1C8076BE92719B89951AD8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D59F635C028D39BAC5AD778F9F4FFAA2 /* Pods-CardViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CardViewDemo-frameworks.sh"; sourceTree = "<group>"; };
+		DC7960281DB2CA5DDECA3C903A14A8EE /* Pods-CardView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CardView-acknowledgements.plist"; sourceTree = "<group>"; };
 		DFA1012B6A8BD076CD9F09831AE37A01 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
-		E36C9C1E25D2E38046AC73CD871F62C0 /* Pods-LCCardViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCCardViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E7851906D7976272A721C8C4E0CE9092 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		E88E4FEBD79F4B81876488E5A67DDC29 /* Pods-LCCardView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LCCardView"; path = Pods_LCCardView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA3345337DDA390742B64B88069A6F1F /* Pods-LCCardViewDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LCCardViewDemo"; path = Pods_LCCardViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EB7CC7527FD599A1064055C060E14B43 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
@@ -120,19 +120,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4355454B41BD8DADBDB633DF4FD8A5F6 /* Frameworks */ = {
+		000AC75C2CCFC666CF26C2FF2AF81AEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D9E759F44F7B482FF6EF52452C05C26 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C04A8C2E40323BB5F28FB26EA590ADC0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7EF01198B1CADC82BD6E51893FB67B99 /* Foundation.framework in Frameworks */,
+				B9116EF050E061D994AC00990EE3694C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +134,14 @@
 			files = (
 				78251F42EB680FB72F040A1986279CD2 /* Foundation.framework in Frameworks */,
 				8171D105E2C5CD3C1357D544942B4446 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BD369C247FE5E7C6BC139C4E6A4408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBD5130DC0B2659F717A2F7532601C0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,23 +182,6 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		0F4AF20DC4ADED1C9188B8518781EE69 /* Pods-LCCardViewDemo */ = {
-			isa = PBXGroup;
-			children = (
-				32EBFBCA20F7807E4AB478293275D168 /* Pods-LCCardViewDemo.modulemap */,
-				C19ABC20C953A9EF05EEE8B0806B115E /* Pods-LCCardViewDemo-acknowledgements.markdown */,
-				2FE84E5D75775BFB2AB4C5F9966020A0 /* Pods-LCCardViewDemo-acknowledgements.plist */,
-				93AA83ED880C7836251B5EE9A2F54D65 /* Pods-LCCardViewDemo-dummy.m */,
-				64FBA21654074EF6E913E0685654D0FC /* Pods-LCCardViewDemo-frameworks.sh */,
-				4BED2555A4C2DFA550B974BB8B8479E4 /* Pods-LCCardViewDemo-Info.plist */,
-				CF75334C33820F6B9E3108DCACC16D30 /* Pods-LCCardViewDemo-umbrella.h */,
-				15542D17376A59B51CFD3E7D3CAEDD2C /* Pods-LCCardViewDemo.debug.xcconfig */,
-				E36C9C1E25D2E38046AC73CD871F62C0 /* Pods-LCCardViewDemo.release.xcconfig */,
-			);
-			name = "Pods-LCCardViewDemo";
-			path = "Target Support Files/Pods-LCCardViewDemo";
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,37 +190,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1D1440E1075BDDBDE5CED13312182B9E /* Products */ = {
+		4BDA0D9DF108DDF17F4C0BE343D84781 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1FFED36A657123030ABB700256D73F15 /* Masonry */,
-				E88E4FEBD79F4B81876488E5A67DDC29 /* Pods-LCCardView */,
-				EA3345337DDA390742B64B88069A6F1F /* Pods-LCCardViewDemo */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		38DDBC6BA60A36DD24CD5B99CD793234 /* Pods-LCCardView */ = {
-			isa = PBXGroup;
-			children = (
-				1BC23216A4AACFD217E80173856566E7 /* Pods-LCCardView.modulemap */,
-				280D4334EA0CADFCC878F318E10C6CBF /* Pods-LCCardView-acknowledgements.markdown */,
-				1AAE8E292E7A7239050A1E4CB0D6FE24 /* Pods-LCCardView-acknowledgements.plist */,
-				111F60263E3F5AD3073875998940CB9E /* Pods-LCCardView-dummy.m */,
-				748C41B2528D7CBFBE34D185DBCA08AF /* Pods-LCCardView-Info.plist */,
-				4DB4CBE01927F2BB404EDBC637DF654B /* Pods-LCCardView-umbrella.h */,
-				8EF2548E81777FF5C344A64837C6D286 /* Pods-LCCardView.debug.xcconfig */,
-				C997165668FC2FBE482F95875A0A95C6 /* Pods-LCCardView.release.xcconfig */,
-			);
-			name = "Pods-LCCardView";
-			path = "Target Support Files/Pods-LCCardView";
-			sourceTree = "<group>";
-		};
-		45FA759B716E2E24A963DDB827EDA13D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				38DDBC6BA60A36DD24CD5B99CD793234 /* Pods-LCCardView */,
-				0F4AF20DC4ADED1C9188B8518781EE69 /* Pods-LCCardViewDemo */,
+				9C2FDA99323D145EFFD418698978D9D7 /* Pods-CardView */,
+				CB8477F6FF34AB84CAC65A7AC8E8C325 /* Pods-CardViewDemo */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -259,6 +216,32 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		82ABCC530F020E2C27580334F356D839 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFED36A657123030ABB700256D73F15 /* Masonry */,
+				12631D74CC64CA23B6F283A97D928E1C /* Pods-CardView */,
+				195FABDB75E3C07AA60112D615A482FB /* Pods-CardViewDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C2FDA99323D145EFFD418698978D9D7 /* Pods-CardView */ = {
+			isa = PBXGroup;
+			children = (
+				8181E1704A4691CE5F8217DFEF7CC99E /* Pods-CardView.modulemap */,
+				16C3BDE9CE76246D5E35E4C393ADCE12 /* Pods-CardView-acknowledgements.markdown */,
+				DC7960281DB2CA5DDECA3C903A14A8EE /* Pods-CardView-acknowledgements.plist */,
+				505D7FD10ECF9F30992B8B64E3F6ED4D /* Pods-CardView-dummy.m */,
+				BFF5E66F6557CF4DABCB576813CAB695 /* Pods-CardView-Info.plist */,
+				7FB7459DFF5906A95E555B11B067A24A /* Pods-CardView-umbrella.h */,
+				07E9B7AF2F91B334B667E19CA5CC33B6 /* Pods-CardView.debug.xcconfig */,
+				C34577617128C08D4AD2E5085C2A1CA4 /* Pods-CardView.release.xcconfig */,
+			);
+			name = "Pods-CardView";
+			path = "Target Support Files/Pods-CardView";
+			sourceTree = "<group>";
+		};
 		C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,25 +257,50 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
+		CB8477F6FF34AB84CAC65A7AC8E8C325 /* Pods-CardViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				373DC3F09FA1FD744F44ED4458E8F3FF /* Pods-CardViewDemo.modulemap */,
+				C0A02AA33204CE7B1C783B7461B09FF5 /* Pods-CardViewDemo-acknowledgements.markdown */,
+				2D7D0B27B2FBFC3B952A8138B96F6DC1 /* Pods-CardViewDemo-acknowledgements.plist */,
+				285A0FF0774327BB6F5F67058AE7C069 /* Pods-CardViewDemo-dummy.m */,
+				D59F635C028D39BAC5AD778F9F4FFAA2 /* Pods-CardViewDemo-frameworks.sh */,
+				00EC9436E8D4CF4BFDA74CD1C125423C /* Pods-CardViewDemo-Info.plist */,
+				07FD0430F61728622E6AD2A635FA2849 /* Pods-CardViewDemo-umbrella.h */,
+				042DD27F7438B3CA15458B153F0A4E12 /* Pods-CardViewDemo.debug.xcconfig */,
+				1B66939B30D3CF1EF699A31FE634C9F2 /* Pods-CardViewDemo.release.xcconfig */,
+			);
+			name = "Pods-CardViewDemo";
+			path = "Target Support Files/Pods-CardViewDemo";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
-				1D1440E1075BDDBDE5CED13312182B9E /* Products */,
-				45FA759B716E2E24A963DDB827EDA13D /* Targets Support Files */,
+				82ABCC530F020E2C27580334F356D839 /* Products */,
+				4BDA0D9DF108DDF17F4C0BE343D84781 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4D46D085D7A37CA75E8D3D862587B6FD /* Headers */ = {
+		93FCF99220A0321E1004E88356266C20 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8967AD67D6999D770FBD2A2C5ECE3D00 /* Pods-LCCardView-umbrella.h in Headers */,
+				FCCC7BEF73E2677697694862523F7C4F /* Pods-CardView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B06619C55A4A32F97B98BF82CC627E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F415FCAC742F9770CEE1DB80C54A9059 /* Pods-CardViewDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,53 +327,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A13A2803E645A3913EFE59B9BC19727F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB54B181303BC08382D98B690D7383D9 /* Pods-LCCardViewDemo-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		059CF14F2865383F1BE85C4744355CC0 /* Pods-LCCardView */ = {
+		0B202D24845B5135D561516F851CCA2F /* Pods-CardView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE08D6FD1B3B0E448D02039AF937D2D1 /* Build configuration list for PBXNativeTarget "Pods-LCCardView" */;
+			buildConfigurationList = BD4CB7C40126B491ADBBEFBB8850DDA5 /* Build configuration list for PBXNativeTarget "Pods-CardView" */;
 			buildPhases = (
-				4D46D085D7A37CA75E8D3D862587B6FD /* Headers */,
-				F07A6C64257B8B06FE99A2BEB05B6687 /* Sources */,
-				C04A8C2E40323BB5F28FB26EA590ADC0 /* Frameworks */,
-				657A633C47D83F2062EF041D5AD08015 /* Resources */,
+				93FCF99220A0321E1004E88356266C20 /* Headers */,
+				89625DC890A03923B60847B60C3D952B /* Sources */,
+				000AC75C2CCFC666CF26C2FF2AF81AEA /* Frameworks */,
+				E50E6F291F92D73911FD562398032F0B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B5F8BB53101F53A1891896053C9CE287 /* PBXTargetDependency */,
+				55750BF2120A10CFF3F80FE853F57455 /* PBXTargetDependency */,
 			);
-			name = "Pods-LCCardView";
-			productName = Pods_LCCardView;
-			productReference = E88E4FEBD79F4B81876488E5A67DDC29 /* Pods-LCCardView */;
-			productType = "com.apple.product-type.framework";
-		};
-		2E8CCF5260B2A877AA4E40098C4C28FD /* Pods-LCCardViewDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3030492588363AB3922B0B632AB1DF66 /* Build configuration list for PBXNativeTarget "Pods-LCCardViewDemo" */;
-			buildPhases = (
-				A13A2803E645A3913EFE59B9BC19727F /* Headers */,
-				13E0C120CCAFD6772D6EF7B194ACDBD3 /* Sources */,
-				4355454B41BD8DADBDB633DF4FD8A5F6 /* Frameworks */,
-				FCEC01C938B85FAB25F267148299D203 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DCAD8342008486C5749EB3B4A23AD025 /* PBXTargetDependency */,
-			);
-			name = "Pods-LCCardViewDemo";
-			productName = Pods_LCCardViewDemo;
-			productReference = EA3345337DDA390742B64B88069A6F1F /* Pods-LCCardViewDemo */;
+			name = "Pods-CardView";
+			productName = Pods_CardView;
+			productReference = 12631D74CC64CA23B6F283A97D928E1C /* Pods-CardView */;
 			productType = "com.apple.product-type.framework";
 		};
 		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
@@ -386,6 +367,25 @@
 			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry */;
 			productType = "com.apple.product-type.framework";
 		};
+		67A07D1FC55340C323421612E56DF59F /* Pods-CardViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C61A217794E9318D404B6B5E29FF330 /* Build configuration list for PBXNativeTarget "Pods-CardViewDemo" */;
+			buildPhases = (
+				96B06619C55A4A32F97B98BF82CC627E /* Headers */,
+				9ACFCD0E68A5771A92286387AA93215E /* Sources */,
+				F6BD369C247FE5E7C6BC139C4E6A4408 /* Frameworks */,
+				F69748F7655B6B9E4014A1C30ABEAF96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1F53D09DF6A909CB0C4B9463EBD2C2 /* PBXTargetDependency */,
+			);
+			name = "Pods-CardViewDemo";
+			productName = Pods_CardViewDemo;
+			productReference = 195FABDB75E3C07AA60112D615A482FB /* Pods-CardViewDemo */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -404,13 +404,13 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1D1440E1075BDDBDE5CED13312182B9E /* Products */;
+			productRefGroup = 82ABCC530F020E2C27580334F356D839 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
-				059CF14F2865383F1BE85C4744355CC0 /* Pods-LCCardView */,
-				2E8CCF5260B2A877AA4E40098C4C28FD /* Pods-LCCardViewDemo */,
+				0B202D24845B5135D561516F851CCA2F /* Pods-CardView */,
+				67A07D1FC55340C323421612E56DF59F /* Pods-CardViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -423,14 +423,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		657A633C47D83F2062EF041D5AD08015 /* Resources */ = {
+		E50E6F291F92D73911FD562398032F0B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCEC01C938B85FAB25F267148299D203 /* Resources */ = {
+		F69748F7655B6B9E4014A1C30ABEAF96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -440,14 +440,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		13E0C120CCAFD6772D6EF7B194ACDBD3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				17C938FCD3EC3DCEC430B222208A5546 /* Pods-LCCardViewDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3003736003A11F9793D9EA6DC169AED7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -466,32 +458,77 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F07A6C64257B8B06FE99A2BEB05B6687 /* Sources */ = {
+		89625DC890A03923B60847B60C3D952B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF8D6B9D3811FB803EE98796EEE62B5B /* Pods-LCCardView-dummy.m in Sources */,
+				F3EAA968321A3A0D3B5C7EE710F49FEF /* Pods-CardView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ACFCD0E68A5771A92286387AA93215E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BF787BBB2AB067D2087EB83674FAE1 /* Pods-CardViewDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B5F8BB53101F53A1891896053C9CE287 /* PBXTargetDependency */ = {
+		3F1F53D09DF6A909CB0C4B9463EBD2C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 1B56ACF5158916DE7CBDCF4FB4FF26DF /* PBXContainerItemProxy */;
+			targetProxy = 80BF88B8BD80CCFAD127C01499A9CBDF /* PBXContainerItemProxy */;
 		};
-		DCAD8342008486C5749EB3B4A23AD025 /* PBXTargetDependency */ = {
+		55750BF2120A10CFF3F80FE853F57455 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = F751C6B173D9B95D8BF5F8ED9A4EA2FF /* PBXContainerItemProxy */;
+			targetProxy = A69546F2F7BC544AA71ADA4A4544B4F4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0E4CA2C6C718C41EE88141ED6EE4C301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B66939B30D3CF1EF699A31FE634C9F2 /* Pods-CardViewDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CardViewDemo/Pods-CardViewDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CardViewDemo/Pods-CardViewDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -591,9 +628,9 @@
 			};
 			name = Debug;
 		};
-		60468208C2D0AF7F0D17649C5AE1102C /* Release */ = {
+		5FBEA4A0B7640CF64437B5034B0778B6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C997165668FC2FBE482F95875A0A95C6 /* Pods-LCCardView.release.xcconfig */;
+			baseConfigurationReference = C34577617128C08D4AD2E5085C2A1CA4 /* Pods-CardView.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -604,7 +641,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LCCardView/Pods-LCCardView-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CardView/Pods-CardView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -613,7 +650,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LCCardView/Pods-LCCardView.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-CardView/Pods-CardView.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -628,9 +665,9 @@
 			};
 			name = Release;
 		};
-		72C65DF91587912748974370689B9162 /* Debug */ = {
+		68D0094E1CF7D8FB1F1FE0A5B581A57B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EF2548E81777FF5C344A64837C6D286 /* Pods-LCCardView.debug.xcconfig */;
+			baseConfigurationReference = 042DD27F7438B3CA15458B153F0A4E12 /* Pods-CardViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -641,7 +678,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LCCardView/Pods-LCCardView-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CardViewDemo/Pods-CardViewDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -650,7 +687,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LCCardView/Pods-LCCardView.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-CardViewDemo/Pods-CardViewDemo.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -663,43 +700,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		7523F8AB73BF425B867A8698DD460AB5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E36C9C1E25D2E38046AC73CD871F62C0 /* Pods-LCCardViewDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LCCardViewDemo/Pods-LCCardViewDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LCCardViewDemo/Pods-LCCardViewDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		83A1CD5A0D744E6C5C16EB552F459A6A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -734,42 +734,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		8EE499502311CE31EDFB0437892B6335 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15542D17376A59B51CFD3E7D3CAEDD2C /* Pods-LCCardViewDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LCCardViewDemo/Pods-LCCardViewDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LCCardViewDemo/Pods-LCCardViewDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -833,6 +797,42 @@
 			};
 			name = Release;
 		};
+		D8538C01815FEC9A75ED298AC5F9ED28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E9B7AF2F91B334B667E19CA5CC33B6 /* Pods-CardView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CardView/Pods-CardView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CardView/Pods-CardView.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -841,15 +841,6 @@
 			buildConfigurations = (
 				574336E93FEE5E80463961C3B5210418 /* Debug */,
 				83A1CD5A0D744E6C5C16EB552F459A6A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3030492588363AB3922B0B632AB1DF66 /* Build configuration list for PBXNativeTarget "Pods-LCCardViewDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8EE499502311CE31EDFB0437892B6335 /* Debug */,
-				7523F8AB73BF425B867A8698DD460AB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -863,11 +854,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE08D6FD1B3B0E448D02039AF937D2D1 /* Build configuration list for PBXNativeTarget "Pods-LCCardView" */ = {
+		9C61A217794E9318D404B6B5E29FF330 /* Build configuration list for PBXNativeTarget "Pods-CardViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72C65DF91587912748974370689B9162 /* Debug */,
-				60468208C2D0AF7F0D17649C5AE1102C /* Release */,
+				68D0094E1CF7D8FB1F1FE0A5B581A57B /* Debug */,
+				0E4CA2C6C718C41EE88141ED6EE4C301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4CB7C40126B491ADBBEFBB8850DDA5 /* Build configuration list for PBXNativeTarget "Pods-CardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8538C01815FEC9A75ED298AC5F9ED28 /* Debug */,
+				5FBEA4A0B7640CF64437B5034B0778B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -40,7 +40,7 @@ CardView Achieve card sliding effect.
   #
 
   # spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT", :file => "ICENSE.md" }
+  spec.license      = { :type => "MIT", :file => "LICENSE.md" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
